@@ -38,10 +38,10 @@ if __name__ == '__main__':
     "123-456*-abc" -> NOT OK
     """
 
-    gcp_description = "user: Joe" \
-                      "email: joe.doe@example.com" \
-                      "gcp_account = 123-456-abc"
+    gcp_description = "user: Joe\n" \
+                      "email: joe.doe@example.com\n" \
+                      "gcp_account: 123-456-abc\n"
 
-    aws_description = "user: Karen" \
-                      "email: karen.doe@example.com" \
-                      "aws_arn: arn:aws:iam::1234567890ab:root"
+    aws_description = "user: Karen\n" \
+                      "email: karen.doe@example.com\n" \
+                      "aws_arn: arn:aws:iam::1234567890ab:root\n"
